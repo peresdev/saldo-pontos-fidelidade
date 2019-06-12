@@ -81,6 +81,8 @@ api/ConsultaFidelizacao
 
 # Utilizar interface visual
 - Número de documento
+
+
 Utilizar 123456789, 111111111 ou 222222222.
 
 # Possíveis melhorias
