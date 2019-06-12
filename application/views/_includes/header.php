@@ -6,5 +6,7 @@
     <title><?=$title?></title>
 
     <link rel="stylesheet" href="<?=base_url('css/bulma.min.css')?>">
-
+    <style type="text/css">
+    	.hide{display:none;}
+    </style>
 </head>

@@ -8,7 +8,7 @@ class Saldo_model extends CI_Model {
     }
 
     public function get($numero_documento) {
-        $this->db->select('saldo_disponivel_dinheiro, pontos');
+        $this->db->select("c.nome, concat('R$ ', format(saldo_disponivel_dinheiro,2,'de_DE')) as saldo_disponivel_dinheiro, pontos");
         $this->db->from('saldo s');
         $this->db->join('cliente c', 'c.cliente_id = s.cliente_id', 'inner');
         $this->db->where('c.numero_documento', $numero_documento);
