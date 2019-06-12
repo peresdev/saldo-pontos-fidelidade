@@ -3,6 +3,26 @@ Projeto para realizar a consulta de saldo de pontos de fidelidade via REST API.
 
 ![Demonstração](imgs/demonstracao.gif?raw=true "Demonstração")
 
+# Configurar projetos
+- config/config.php
+
+
+Colocar a URL local ou de produção em $config['base_url'].
+
+
+- config/database.php
+
+
+Colocar informações do banco de dados (MySQL)
+
+
+```php
+'hostname' => '127.0.0.1',
+'username' => 'root',
+'password' => '',
+'database' => 'saldo_de_pontos'
+```
+
 # Tecnologias utilizadas
 - PHP
 - CodeIgniter Web Framework
