@@ -3,7 +3,7 @@ Projeto para realizar a consulta de saldo de pontos de fidelidade via REST API.
 
 ![Demonstração](imgs/demonstracao.gif?raw=true "Demonstração")
 
-# Configurar projetos
+# Configurar projeto
 - config/config.php
 
 
