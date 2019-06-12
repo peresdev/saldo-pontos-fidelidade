@@ -66,6 +66,7 @@ INSERT INTO integracao (chave, codigo_loja, codigo_cartao) values ("4B335B6F-9C4
 
 # Consumir API
 - Credenciais API
+
 Chave: 4B335B6F-9C4D-47F7-B798-C46FFBC4881A
 
 Código Loja: 1
