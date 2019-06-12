@@ -75,6 +75,8 @@ Código Loja: 1
 Código Cartão: 32231126850 
 
 - Endpoint API
+
+
 api/ConsultaFidelizacao
 
 # Utilizar interface visual
